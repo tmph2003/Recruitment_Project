@@ -132,11 +132,13 @@ Recruitment_Project
 
 ### Running 
 ```
+#Make must be installed first
+
 # Start docker containers on your local computer
-docker compose up -d
+make up
 
 # Add pip packages
-pip install --no-cache-dir -r /requirements.txt
+make python
 ```
 
 ## 6. Implementation
